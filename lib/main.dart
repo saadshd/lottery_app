@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Lottery App',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
         useMaterial3: true,
@@ -55,7 +55,7 @@ class _LotteryAppState extends State<LotteryApp> {
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+                children: const [
                   Text('Lottery winning number is 13'),
                   ]
               ),
